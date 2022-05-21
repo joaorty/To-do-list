@@ -1,0 +1,42 @@
+*{
+  font-family: "Open Sans";
+}
+
+.container{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.row{
+  flex-direction: row;
+}
+
+#campo{
+  border: 1px solid;
+  border-radius: 5%;
+}
+
+#botao{
+  border: 1px solid;
+  border-color: rgb(130, 170, 184);
+  background-color: lightblue;
+  border-radius: 10%;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.tarefa{
+  margin-top: 10px;
+}
+
+:checked + label{
+  text-decoration: line-through;
+  color: gray;
+}
